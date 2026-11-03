@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage[normalem]{ulem}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{calc}
+\usepackage{tabularx}
+\usepackage{threeparttable}
+\usepackage{wrapfig}
+\usepackage{adjustbox}
+\usepackage{hyperref}
+% These are LaTeX packages. You can install them using your LaTex management software,
+% or by running `huxtable::install_latex_dependencies()` from within R.
+% Other packages may be required if you use non-standard tabulars (e.g. tabulary).
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+
+  \providecommand{\huxb}[2]{\arrayrulecolor[RGB]{#1}\global\arrayrulewidth=#2pt}
+  \providecommand{\huxvb}[2]{\color[RGB]{#1}\vrule width #2pt}
+  \providecommand{\huxtpad}[1]{\rule{0pt}{#1}}
+  \providecommand{\huxbpad}[1]{\rule[-#1]{0pt}{#1}}
+
+\begin{table}[ht]
+\begin{centerbox}
+\begin{threeparttable}
+ \setlength{\tabcolsep}{0pt}
+\begin{tabular}{l}
+
+
+\hhline{>{\huxb{0, 0, 0}{0.4}}-}
+\arrayrulecolor{black}
+
+\multicolumn{1}{!{\huxvb{0, 0, 0}{0.4}}l!{\huxvb{0, 0, 0}{0.4}}}{\huxtpad{6pt + 1em}\raggedright \hspace{6pt} x \hspace{6pt}\huxbpad{6pt}} \tabularnewline[-0.5pt]
+
+
+\hhline{>{\huxb{0, 0, 0}{0.4}}-}
+\arrayrulecolor{black}
+
+\multicolumn{1}{!{\huxvb{0, 0, 0}{0.4}}l!{\huxvb{0, 0, 0}{0.4}}}{\huxtpad{6pt + 1em}\raggedright \hspace{6pt} $\backslash$begin\{table\}[H] \newline $\backslash$centering \newline $\backslash$caption\{$\backslash$label\{tab:table3g\_1\}Test of equality, all counties\} \newline $\backslash$centering \newline $\backslash$begin\{tabular\}[t]\{lcccc\} \newline $\backslash$toprule \newline  \& Gen. Pop. \& DIC \& Z \& p-value$\backslash$$\backslash$ \newline $\backslash$midrule \newline $\backslash$leq 0C \& $\backslash$makecell[l]\{0.10391$\backslash$$\backslash$(4e-05)\} \& $\backslash$makecell[l]\{0.03878$\backslash$$\backslash$(0.15874)\} \& -0.41029 \& 0.68159$\backslash$$\backslash$ \newline $\backslash$addlinespace \newline (0C, 5C] \& $\backslash$makecell[l]\{0.06269$\backslash$$\backslash$(2e-05)\} \& $\backslash$makecell[l]\{0.16181$\backslash$$\backslash$(0.05399)\} \& 1.83595 \& 0.06637$\backslash$$\backslash$ \newline $\backslash$addlinespace \newline (5C, 10C] \& $\backslash$makecell[l]\{0.03697$\backslash$$\backslash$(2e-05)\} \& $\backslash$makecell[l]\{0.01839$\backslash$$\backslash$(0.03732)\} \& -0.49771 \& 0.61869$\backslash$$\backslash$ \newline $\backslash$addlinespace \newline (10C, 15C] \& $\backslash$makecell[l]\{0.02379$\backslash$$\backslash$(1e-05)\} \& $\backslash$makecell[l]\{0.05304$\backslash$$\backslash$(0.0253)\} \& 1.15591 \& 0.24772$\backslash$$\backslash$ \newline $\backslash$addlinespace \newline (15C, 20C] \& $\backslash$makecell[l]\{0.01575$\backslash$$\backslash$(1e-05)\} \& $\backslash$makecell[l]\{0.03182$\backslash$$\backslash$(0.03408)\} \& 0.47152 \& 0.63727$\backslash$$\backslash$ \newline $\backslash$addlinespace \newline (25C, 30C] \& $\backslash$makecell[l]\{0.00899$\backslash$$\backslash$(1e-05)\} \& $\backslash$makecell[l]\{0.00192$\backslash$$\backslash$(0.02533)\} \& -0.27903 \& 0.78022$\backslash$$\backslash$ \newline $\backslash$midrule \newline $\backslash$addlinespace \newline (30C, 32C] \& $\backslash$makecell[l]\{0.02518$\backslash$$\backslash$(2e-05)\} \& $\backslash$makecell[l]\{-0.02594$\backslash$$\backslash$(0.05275)\} \& -0.96914 \& 0.33247$\backslash$$\backslash$ \newline $\backslash$addlinespace \newline $>$32C \& $\backslash$makecell[l]\{0.02403$\backslash$$\backslash$(2e-05)\} \& $\backslash$makecell[l]\{0.22577$\backslash$$\backslash$(0.11066)\} \& 1.82310 \& 0.06829$\backslash$$\backslash$ \newline $\backslash$bottomrule \newline $\backslash$end\{tabular\} \newline $\backslash$end\{table\} \hspace{6pt}\huxbpad{6pt}} \tabularnewline[-0.5pt]
+
+
+\hhline{>{\huxb{0, 0, 0}{0.4}}-}
+\arrayrulecolor{black}
+\end{tabular}
+\end{threeparttable}\par\end{centerbox}
+
+\end{table}
+
+
+
+\end{document}

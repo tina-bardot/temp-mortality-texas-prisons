@@ -1,0 +1,24 @@
+\begin{table}
+\centering
+\caption{\label{tab:qp_hot_wave_state}Heat wave model}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
+\toprule
+  & minimum & mean & maximum & dew point\\
+\midrule
+heat wave & 0.084** & 0.323 & 0.101 & -0.012\\
+
+ & (0.032) & (0.227) & (0.201) & (0.044)\\
+
+Num.Obs. & 192080 & 192080 & 192080 & 192080\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}All models include city-by-year, day-of-week}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}and month-of-year fixed effects.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Standard errors are clustered at the city level.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Temperature thresholds reflect the state-level}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}99textsuperscript{th} percentile of the distribution.}\\
+\end{tabu}}
+\end{table}

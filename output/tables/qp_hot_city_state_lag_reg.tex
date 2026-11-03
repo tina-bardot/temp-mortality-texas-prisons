@@ -1,0 +1,80 @@
+\begin{table}
+\centering
+\caption{\label{tab:qp_hot_lag_state}Lagged model (heat)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lllll}
+\toprule
+  & minimum & mean & maximum & dew point\\
+\midrule
+hot day & 0.126*** & 0.267 & 0.068 & 0.021\\
+
+ & (0.036) & (0.295) & (0.205) & (0.025)\\
+
+hot day_{lag1} & -0.068 & 0.173 & 0.140 & -0.046\\
+
+ & (0.044) & (0.224) & (0.228) & (0.066)\\
+
+hot day_{lag2} & -0.004 & -0.317 & -0.052 & 0.102**\\
+
+ & (0.032) & (0.285) & (0.253) & (0.038)\\
+
+hot day_{lag3} & 0.162*** & 0.221 & -0.013 & -0.120*\\
+
+ & (0.033) & (0.201) & (0.164) & (0.047)\\
+
+hot day_{lag4} & -0.108*** & -0.062 & 0.244 & -0.079+\\
+
+ & (0.030) & (0.225) & (0.182) & (0.044)\\
+
+hot day_{lag5} & -0.158** & 0.321+ & 0.151 & 0.147**\\
+
+ & (0.051) & (0.180) & (0.214) & (0.055)\\
+
+hot day_{lag6} & 0.141* & -0.104 & -0.229 & 0.045\\
+
+ & (0.056) & (0.302) & (0.246) & (0.046)\\
+
+hot day_{lag7} & 0.001 & -0.124 & 0.174 & -0.063\\
+
+ & (0.027) & (0.157) & (0.172) & (0.053)\\
+
+hot day_{lag8} & 0.015 & 0.168 & -0.063 & -0.119***\\
+
+ & (0.035) & (0.205) & (0.261) & (0.022)\\
+
+hot day_{lag9} & -0.034 & 0.091 & -0.069 & 0.036\\
+
+ & (0.040) & (0.200) & (0.250) & (0.032)\\
+
+hot day_{lag10} & 0.038 & 0.020 & 0.129 & 0.052\\
+
+ & (0.122) & (0.166) & (0.149) & (0.042)\\
+
+hot day_{lag11} & -0.033 & 0.013 & -0.195 & -0.046\\
+
+ & (0.031) & (0.216) & (0.243) & (0.042)\\
+
+hot day_{lag12} & -0.047 & -0.639*** & -0.465+ & 0.115\\
+
+ & (0.050) & (0.192) & (0.279) & (0.071)\\
+
+hot day_{lag13} & -0.097 & 0.363 & 0.333 & 0.004\\
+
+ & (0.076) & (0.282) & (0.240) & (0.036)\\
+
+hot day_{lag14} & 0.175* & 0.131 & 0.153 & 0.079*\\
+
+ & (0.076) & (0.180) & (0.162) & (0.035)\\
+
+Num.Obs. & 176715 & 176715 & 176715 & 176715\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}All models include city-by-year, day-of-week}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}and month-of-year fixed effects.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Standard errors are clustered at the city level.}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Temperature thresholds reflect the state-level}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}99textsuperscript{th} percentile of the distribution.}\\
+\end{tabular}}
+\end{table}

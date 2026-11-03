@@ -1,0 +1,31 @@
+\begin{table}
+
+\caption{Dep. variable = mortality in TX prisons}
+\centering
+\begin{tabular}[t]{lcc}
+\toprule
+ & (1) & (2)\\
+\midrule
+\leq 5C & 0.104+ & 0.118*\\
+\leq 5C & (0.061) & (0.059)\\
+(5C, 10C] & -0.015 & -0.002\\
+(5C, 10C] & (0.034) & (0.037)\\
+(10C, 15C] & 0.031 & 0.035\\
+\addlinespace
+(10C, 15C] & (0.023) & (0.026)\\
+(15C, 20C] & 0.018 & 0.017\\
+(15C, 20C] & (0.023) & (0.026)\\
+(25C, 30C] & 0.006 & 0.016\\
+(25C, 30C] & (0.020) & (0.041)\\
+\addlinespace
+\geq 30C & 0.060 & 0.062\\
+\geq 30C & (0.056) & (0.049)\\
+Sample Size & 337877 & 337877\\
+RMSE & 0.17 & 0.17\\
+Month FE & \xmark & \checkmark\\
+\addlinespace
+City x year FE & \checkmark & \checkmark\\
+Day of week FE & \xmark & \checkmark\\
+\bottomrule
+\end{tabular}
+\end{table}

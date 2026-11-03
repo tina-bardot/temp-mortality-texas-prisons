@@ -1,0 +1,50 @@
+
+\begin{landscape}\begin{table}
+\centering
+\caption{\label{tab:qp_hot_threshold_city}city threshold model (heat)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lllllllll}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{4}{c}{99th Percentile} & \multicolumn{4}{c}{95th Percentile} \\
+\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
+hot day_{min} & 0.067 &  &  &  & 0.064 &  &  & \\
+ & (0.112) &  &  &  & (0.053) &  &  & \\
+
+ & -0.002 &  &  &  & -0.003 &  &  & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{min}} & (0.004) &  &  &  & (0.004) &  &  & \\
+
+ &  & 0.228** &  &  &  & 0.028 &  & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash hot day_{mean}} &  & (0.076) &  &  &  & (0.067) &  & \\
+
+ &  & -0.003 &  &  &  & -0.002 &  & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{mean}} &  & (0.004) &  &  &  & (0.004) &  & \\
+
+ &  &  & 0.029 &  &  &  & 0.061 & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash hot day_{max}} &  &  & (0.087) &  &  &  & (0.061) & \\
+
+ &  &  & -0.001 &  &  &  & -0.002 & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{max}} &  &  & (0.003) &  &  &  & (0.003) & \\
+
+ &  &  &  & -0.002 &  &  &  & 0.027\\
+
+\multirow{-2}{*}{\raggedright\arraybackslash hot day_{dew point}} &  &  &  & (0.096) &  &  &  & (0.042)\\
+
+ &  &  &  & -0.003 &  &  &  & -0.003\\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{dew point}} &  &  &  & (0.004) &  &  &  & (0.003)\\
+
+Num.Obs. & 192080 & 192080 & 192080 & 192080 & 192080 & 192080 & 192080 & 192080\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}All models include city-by-year, day-of-week and month-of-year fixed effects.}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}Standard errors are clustered at the city level.}\\
+\end{tabular}}
+\end{table}
+\end{landscape}

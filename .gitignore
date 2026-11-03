@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+data/.DS_Store
+data/cluster_id_temps/.DS_Store
+data/cluster_id_temps/prism/.DS_Store
+output/.DS_Store
+output/tables/.DS_Store
+archive/
+code/00_copy_existing_data.R
+data/raw/dshs

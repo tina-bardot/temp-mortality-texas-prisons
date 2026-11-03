@@ -1,0 +1,50 @@
+
+\begin{landscape}\begin{table}
+\centering
+\caption{\label{tab:qp_cold_threshold_state}State threshold model (cold)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lllllllll}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{4}{c}{01th Percentile} & \multicolumn{4}{c}{05th Percentile} \\
+\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
+cold day_{min} & 0.057 &  &  &  & 0.241** &  &  & \\
+ & (0.166) &  &  &  & (0.091) &  &  & \\
+
+ & -0.001 &  &  &  & 0.001 &  &  & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{min}} & (0.001) &  &  &  & (0.002) &  &  & \\
+
+ &  & -0.009 &  &  &  & 0.022 &  & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash cold day_{mean}} &  & (0.141) &  &  &  & (0.090) &  & \\
+
+ &  & -0.002 &  &  &  & -0.001 &  & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{mean}} &  & (0.002) &  &  &  & (0.002) &  & \\
+
+ &  &  & 0.038 &  &  &  & 0.060 & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash cold day_{max}} &  &  & (0.228) &  &  &  & (0.060) & \\
+
+ &  &  & -0.001 &  &  &  & -0.000 & \\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{max}} &  &  & (0.002) &  &  &  & (0.002) & \\
+
+ &  &  &  & 0.303* &  &  &  & -0.024\\
+
+\multirow{-2}{*}{\raggedright\arraybackslash cold day_{dew point}} &  &  &  & (0.146) &  &  &  & (0.088)\\
+
+ &  &  &  & -0.001 &  &  &  & -0.002\\
+
+\multirow{-2}{*}{\raggedright\arraybackslash temp_{dew point}} &  &  &  & (0.001) &  &  &  & (0.002)\\
+
+Num.Obs. & 333892 & 333892 & 333892 & 333892 & 333892 & 333892 & 333892 & 333892\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}+ p < 0.1, * p < 0.05, ** p < 0.01, *** p < 0.001}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}All models include city-by-year, day-of-week and month-of-year fixed effects.}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}Standard errors are clustered at the city level.}\\
+\end{tabular}}
+\end{table}
+\end{landscape}
